@@ -30,7 +30,7 @@ print(price)
 
 print(price_container.text)
 
-for details in price_container:
+
 
 
 #for details in shoes:
