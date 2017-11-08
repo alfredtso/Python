@@ -28,6 +28,8 @@ price_container = page_soup.findAll('dd', {"class" : "color666"})
 price = price_container[10].text
 print(price)
 
+print(price_container.text)
+
 for details in price_container:
 
 
