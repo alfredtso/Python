@@ -35,5 +35,13 @@ print(name)
 
 price_container = page_soup.findAll('dd', {"class" : "color666"})
 price = price_container[10].text
+<<<<<<< HEAD
+=======
+print(price)
+
+print(price_container.text)
+
+for details in price_container:
+>>>>>>> f09e46456278732436d95c01174e2f1df3f47e72
 
 print(price)
